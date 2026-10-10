@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-10T22:06:20.531403+00:00",
+  "files": {
+    "demo_results/parameters_20261010T184153479459Z.json": {
+      "bytes": 1859,
+      "sha256": "9c044b7e61a7d8922c13b50c656695c4f0e22b869e0936177e7b15ee8317ce76"
+    },
+    "demo_results/samples_20261010T184153479459Z.csv": {
+      "bytes": 26299463,
+      "sha256": "a490d1b2b1c19af1360fd198d0bd3323d41fe634493d42e7f9325cb316eb1778"
+    },
+    "demo_results/schedules.csv": {
+      "bytes": 96235,
+      "sha256": "4554d660e5ffed4537c9502541c6968ca5c959daaea135c4e5ee5b1537adb989"
+    },
+    "demo_results/summary_20261010T184153479459Z.csv": {
+      "bytes": 459,
+      "sha256": "1f4a59aaa80db07fff89a15850b835f5d73a342255e6bb86007ae743970017da"
+    }
+  },
+  "format_version": 1
+}
