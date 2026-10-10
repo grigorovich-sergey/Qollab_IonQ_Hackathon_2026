@@ -1,0 +1,2 @@
+raw_shots,accepted_samples,acceptance_rate,complete_chunks,five_period_frequency_accepted,filtered_chunk_success,ci95_low,ci95_high,exact_predicted_filtered_success,uniform_feasible_reference,training_runtime_s,sampling_runtime_s,best_sampled_masks
+3200000,32216,0.0100675,2013,0.05919418922274646,0.6338797814207651,0.6124038885703943,0.6549649761006173,0.6287675209731234,0.4961774440453166,1709.4252788609997,666.386225973,"[10490016, 10502276, 10616962]"

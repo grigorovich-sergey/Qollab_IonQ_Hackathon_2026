@@ -1,0 +1,82 @@
+{
+  "run_id": "20261010T184153479459Z",
+  "objective": "feasibility_conditioned_lower_tail_cvar",
+  "settings": {
+    "seed": 666,
+    "depth": 1,
+    "penalty": 2.0,
+    "minimum_feasibility": 0.01,
+    "cvar_fraction": 0.1,
+    "grid_size": 31,
+    "shortlist_size": 8,
+    "grid_separation_cells": 3.0,
+    "cvar_tie_tolerance": 1e-09,
+    "max_optimizer_evaluations": 80,
+    "max_simulator_calls": 100,
+    "rhobeg": 0.01,
+    "tol": 0.0001,
+    "final_shots": 3200000,
+    "batch_shots": 200000,
+    "final_stream": 200,
+    "chunk_size": 16,
+    "detour_tie_tolerance_s": 1e-06
+  },
+  "parameter_names": [
+    "gamma[0]",
+    "beta[0]"
+  ],
+  "compatible_pairs": [
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BI",
+    "BJ",
+    "BK",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CK",
+    "DE",
+    "DI",
+    "DJ",
+    "DK",
+    "EI",
+    "EJ",
+    "EK",
+    "FG",
+    "FH",
+    "GH",
+    "IJ",
+    "IK",
+    "JK"
+  ],
+  "initial_angles": [
+    3.1951339353611106,
+    0.6638386172087102
+  ],
+  "selected_angles": [
+    3.317746528455971,
+    0.2681369860788039
+  ],
+  "conditional_cvar": -4.6005406754050195,
+  "feasibility_probability": 0.01000001217801684,
+  "conditional_five_period_probability": 0.06005406754050223,
+  "predicted_filtered_chunk_probability": 0.6287675209731234,
+  "simulator_calls": 56,
+  "optimizer_evaluations": 49,
+  "stopping_reason": "Return from COBYLA because the trust region radius reaches its lower bound.",
+  "training_elapsed_s": 1709.4252788609997,
+  "raw_sample_file": "samples_20261010T184153479459Z.csv",
+  "sampled_shots": 3200000,
+  "sampling_elapsed_s": 666.386225973,
+  "sampling_seed_rule": "SeedSequence([seed, final_stream, batch_index]).generate_state(1)[0]",
+  "package_versions": {
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "osmnx": "2.1.1"
+  }
+}
