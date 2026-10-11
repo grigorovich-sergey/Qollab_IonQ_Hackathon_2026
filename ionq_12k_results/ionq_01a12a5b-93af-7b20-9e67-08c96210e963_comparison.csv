@@ -1,0 +1,4 @@
+experiment,raw_shots,accepted_samples,acceptance_rate,complete_chunks,five_period_frequency_accepted,filtered_chunk_success,ci95_low,ci95_high,predicted_filtered_success,prediction_basis,sampling_runtime_s
+Uniform feasible,,,1.0,,0.04194078947368421,,,,0.4961774440453166,Exact uniform reference,
+Recorded ideal Aer,3200000.0,32216.0,0.0100675,2013.0,0.0591941892227464,0.6338797814207651,0.6124038885703943,0.6549649761006173,0.6287675209731234,Exact ideal circuit,666.386225973
+IonQ Forte (shuffled counts),12000.0,55.0,0.004583333333333333,3.0,0.01818181818181818,0.0,0.0,0.7075982261787133,0.2544150632645754,Estimate from counts,3219.9609
